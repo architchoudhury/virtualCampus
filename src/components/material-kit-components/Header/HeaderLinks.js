@@ -93,6 +93,17 @@ export default function HeaderLinks(props) {
           Contact Us
         </Button>
       </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/spaces"
+          color="transparent"
+          className={classes.navLink}
+          active={props.active==='spaces'}
+        >
+          Spaces
+        </Button>
+      </ListItem>
     </List>
   );
 }
